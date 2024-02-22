@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color: #9376e0;
+}
+
+.players {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 18rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 50px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #69cde9;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.diceSection {
+  margin-top: auto;
+}
