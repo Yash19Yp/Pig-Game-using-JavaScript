@@ -1,15 +1,16 @@
 body {
   text-align: center;
-  background-color: #9376e0;
+  /* background-color: #9376e0; */
+  margin-top: 10rem;
 }
 
 .players {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 18rem;
+  margin: 2rem 12rem;
 }
 
-.btn {
+button {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 50px;
@@ -29,4 +30,14 @@ body {
 
 .diceSection {
   margin-top: auto;
+}
+
+.active {
+  color: green;
+}
+
+.score {
+  border: none;
+  text-align: center;
+  font-size: 2rem;
 }

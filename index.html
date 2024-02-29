@@ -5,36 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pig Game</title>
+    <link rel="shortcut icon" href="./images/pig.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <div class="players">
         <div>
-            <h1>Player 1</h1>
+            <h1 class="player1 active">Player 1</h1>
             <p>Current Score</p>
-            <input type="text" name="" id="player1CrtScore">
+            <input class="score" type="text" id="player1CrtScore" disabled>
             <p>Total Score</p>
-            <input type="text" name="" id="player1ttlScore">
+            <input class="score" type="text" id="player1TtlScore" disabled>
         </div>
+
         <div class="diceSection">
-            <img src="images/dice-1.svg" alt="dice" class="dice">
+            <img src="images/dice-1.svg" alt="dice" class="dice" width="25%">
             <div>
-                <button class="btn" id="rollDice">Roll dice</button>
-                <button class="btn" id="hold">Hold</button>
-                <button class="btn" id="reset">Reset game</button>
+                <button id="rollDice">Roll dice</button>
+                <button id="hold">Hold</button>
+                <button id="reset">Reset game</button>
             </div>
         </div>
 
         <div>
-            <h1>Player 2</h1>
+            <h1 class="player2">Player 2</h1>
             <p>Current Score</p>
-            <input type="text" name="" id="player2CrtScore">
+            <input class="score" type="text" id="player2CrtScore" disabled>
             <p>Total Score</p>
-            <input type="text" name="" id="player2ttlScore">
+            <input class="score" type="text" id="player2TtlScore" disabled>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 
